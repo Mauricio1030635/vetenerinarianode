@@ -7,7 +7,7 @@ export class Producto extends Entity {
     id: true,
     generated: true,
   })
-  id_producto?: string;
+  idproducto?: string;
 
   @property({
     type: 'string',
@@ -38,6 +38,10 @@ export class Producto extends Entity {
   })
   imagenProducto: string;
 
+  @property({
+    type: 'string',
+  })
+  detallePedidoId?: string;
 
   constructor(data?: Partial<Producto>) {
     super(data);

@@ -7,7 +7,7 @@ export class Pedido extends Entity {
     id: true,
     generated: true,
   })
-  id_pedido?: string;
+  idpedido?: string;
 
   @property({
     type: 'date',

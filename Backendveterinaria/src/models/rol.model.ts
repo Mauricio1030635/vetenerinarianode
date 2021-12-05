@@ -7,7 +7,7 @@ export class Rol extends Entity {
     id: true,
     generated: true,
   })
-  id_rol?: string;
+  idrol?: string;
 
   @property({
     type: 'string',

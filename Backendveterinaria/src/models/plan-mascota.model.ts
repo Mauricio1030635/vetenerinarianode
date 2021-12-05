@@ -7,7 +7,7 @@ export class PlanMascota extends Entity {
     id: true,
     generated: true,
   })
-  id_planMascota?: string;
+  idplanMascota?: string;
 
   @property({
     type: 'date',

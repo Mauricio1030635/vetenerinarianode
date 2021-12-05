@@ -3,7 +3,7 @@ import {juggler} from '@loopback/repository';
 
 const config = {
   name: 'mongoDB',
-  connector: 'mongodb',
+  connector: 'mongodb+srv://mms:1030635081@cluster0.dg6wq.mongodb.net/veterinaria?retryWrites=true&w=majority',
   url: '',
   host: '',
   port: 0,
